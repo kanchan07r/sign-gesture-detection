@@ -38,8 +38,8 @@ Jupyter Notebook
 
 Clone the repository:
 
-bashgit clone https://github.com/kanchan07r/sign-language-detection.git
-cd sign-language-detection
+bashgit clone https://github.com/kanchan07r/sign-gesture-detection.git
+cd sign-gesture-detection
 Or Fork this repository to your own GitHub account and clone your fork.
 
 Create a virtual environment (recommended):
@@ -74,7 +74,7 @@ Launch Jupyter Notebook:
 
 bashjupyter notebook
 
-Open Sign_Language_Detection.ipynb
+Open Sign_gesture_Detection.ipynb
 Follow the notebook step-by-step
 
 Notebook Workflow
@@ -126,9 +126,9 @@ pip install -r requirements.txt
 jupyter notebook Sign_Language_Detection.ipynb
 Note: For webcam access in Jupyter, ensure your browser has camera permissions enabled.
 📁 Project Structure
-sign-language-detection/
+sign-gesture-detection/
 │
-├── Sign_Language_Detection.ipynb   # Main Jupyter notebook along with model
+├── Sign_gesture_Detection.ipynb   # Main Jupyter notebook along with model
 ├── requirements.txt                # Project dependencies
 ├── README.md                       # Project documentation
 ├── .gitignore                      # Git ignore file
